@@ -1,4 +1,6 @@
 {
 	"item.muzuly_bunchostuff.test_item": "Testgegenstand",
-	"block.muzuly_bunchostuff.test_block": "Fehlender Block?"
+	"block.muzuly_bunchostuff.test_block": "Fehlender Block?",
+	"item.muzuly_bunchostuff.iron_ring_item": "Ring aus Eisen",
+	"block.muzuly_bunchostuff.bloody_cobblestone": "Blutiger Kopfsteinpflaster"
 }

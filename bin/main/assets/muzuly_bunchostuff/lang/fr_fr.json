@@ -1,4 +1,6 @@
 {
 	"item.muzuly_bunchostuff.test_item": "Élément de Test",
-	"block.muzuly_bunchostuff.test_block": "Bloc Manquant?"
+	"block.muzuly_bunchostuff.test_block": "Bloc Manquant?",
+	"item.muzuly_bunchostuff.iron_ring_item": "Anneau de Fer",
+	"block.muzuly_bunchostuff.bloody_cobblestone": "Pavé Sanglant"
 }
