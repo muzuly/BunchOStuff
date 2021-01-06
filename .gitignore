@@ -1,3 +1,9 @@
-$GIT_DIR/.gradle
+$GIT_DIR/
 /.gradle/
 /build/
+/.idea/
+/.settings/
+/logs/
+/run/
+/.classpath/
+/.project/
