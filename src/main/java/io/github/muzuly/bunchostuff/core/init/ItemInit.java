@@ -33,4 +33,7 @@ public class ItemInit {
 	
 	public static final RegistryObject<BlockItem> BLOODY_COBBLESTONE = ITEMS.register("bloody_cobblestone", 
 			() -> new BlockItem(BlockInit.BLOODY_COBBLESTONE.get(), new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)));
+	
+	public static final RegistryObject<BlockItem> BLUE_PLANKS = ITEMS.register("blue_planks", 
+			() -> new BlockItem(BlockInit.BLUE_PLANKS.get(), new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)));
 }

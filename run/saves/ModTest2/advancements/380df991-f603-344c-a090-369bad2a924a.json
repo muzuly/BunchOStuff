@@ -1,4 +1,16 @@
 {
+  "minecraft:recipes/misc/magenta_dye_from_blue_red_white_dye": {
+    "criteria": {
+      "has_blue_dye": "2021-01-06 16:20:00 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/oak_fence_gate": {
+    "criteria": {
+      "has_planks": "2021-01-06 16:14:25 -0600"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/lever": {
     "criteria": {
       "has_cobblestone": "2021-01-06 12:59:48 -0600"
@@ -11,9 +23,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/cyan_dye": {
+    "criteria": {
+      "has_blue_dye": "2021-01-06 16:20:00 -0600"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/iron_bars": {
     "criteria": {
       "has_iron_ingot": "2021-01-06 11:51:39 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/oak_button": {
+    "criteria": {
+      "has_planks": "2021-01-06 16:14:25 -0600"
     },
     "done": true
   },
@@ -35,6 +59,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/magenta_dye_from_blue_red_pink": {
+    "criteria": {
+      "has_blue_dye": "2021-01-06 16:20:00 -0600"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/gold_block": {
     "criteria": {
       "has_gold_ingot": "2021-01-06 15:08:42 -0600"
@@ -50,6 +80,12 @@
   "minecraft:recipes/combat/diamond_chestplate": {
     "criteria": {
       "has_diamond": "2021-01-06 15:35:10 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/blue_carpet_from_white_carpet": {
+    "criteria": {
+      "has_blue_dye": "2021-01-06 16:20:00 -0600"
     },
     "done": true
   },
@@ -104,6 +140,12 @@
   "minecraft:recipes/combat/diamond_leggings": {
     "criteria": {
       "has_diamond": "2021-01-06 15:35:10 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "has_planks": "2021-01-06 16:14:25 -0600"
     },
     "done": true
   },
@@ -167,9 +209,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/oak_stairs": {
+    "criteria": {
+      "has_planks": "2021-01-06 16:14:25 -0600"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/cobblestone_wall": {
     "criteria": {
       "has_cobblestone": "2021-01-06 12:59:48 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/barrel": {
+    "criteria": {
+      "has_planks": "2021-01-06 16:14:25 -0600"
     },
     "done": true
   },
@@ -197,6 +251,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/blue_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_blue_dye": "2021-01-06 16:20:00 -0600"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/iron_trapdoor": {
     "criteria": {
       "has_iron_ingot": "2021-01-06 11:51:39 -0600"
@@ -215,9 +275,27 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/oak_door": {
+    "criteria": {
+      "has_planks": "2021-01-06 16:14:25 -0600"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/shears": {
     "criteria": {
       "has_iron_ingot": "2021-01-06 11:51:39 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/stick": {
+    "criteria": {
+      "has_planks": "2021-01-06 16:14:25 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/purple_dye": {
+    "criteria": {
+      "has_blue_dye": "2021-01-06 16:20:00 -0600"
     },
     "done": true
   },
@@ -347,6 +425,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/oak_pressure_plate": {
+    "criteria": {
+      "has_planks": "2021-01-06 16:14:25 -0600"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/iron_boots": {
     "criteria": {
       "has_iron_ingot": "2021-01-06 11:51:39 -0600"
@@ -383,6 +467,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/light_blue_dye_from_blue_white_dye": {
+    "criteria": {
+      "has_blue_dye": "2021-01-06 16:20:00 -0600"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/diamond_helmet": {
     "criteria": {
       "has_diamond": "2021-01-06 15:35:10 -0600"
@@ -392,6 +482,12 @@
   "minecraft:story/root": {
     "criteria": {
       "crafting_table": "2021-01-06 11:51:30 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/oak_fence": {
+    "criteria": {
+      "has_planks": "2021-01-06 16:14:25 -0600"
     },
     "done": true
   },
@@ -416,6 +512,24 @@
   "minecraft:recipes/tools/stone_axe": {
     "criteria": {
       "has_cobblestone": "2021-01-06 12:59:48 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/oak_sign": {
+    "criteria": {
+      "has_oak_planks": "2021-01-06 16:14:25 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/oak_trapdoor": {
+    "criteria": {
+      "has_planks": "2021-01-06 16:14:25 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oak_slab": {
+    "criteria": {
+      "has_planks": "2021-01-06 16:14:25 -0600"
     },
     "done": true
   },
