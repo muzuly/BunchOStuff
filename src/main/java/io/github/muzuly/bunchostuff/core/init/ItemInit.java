@@ -17,6 +17,9 @@ public class ItemInit {
 	public static final RegistryObject<Item> TEST_ITEM = ITEMS.register("test_item", 
 			() -> new Item(new Item.Properties().group(ItemGroup.MISC)));
 	
+	public static final RegistryObject<Item> IRON_RING_ITEM = ITEMS.register("iron_ring_item",
+			() -> new Item(new Item.Properties().group(ItemGroup.MISC).maxStackSize(1)));
+	
 	// BLOCK ITEMS
 	public static final RegistryObject<BlockItem> TEST_BLOCK = ITEMS.register("test_block", 
 			() -> new BlockItem(BlockInit.TEST_BLOCK.get(), new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)));

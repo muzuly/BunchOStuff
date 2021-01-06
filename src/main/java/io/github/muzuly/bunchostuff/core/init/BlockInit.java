@@ -16,4 +16,5 @@ public class BlockInit {
 			BunchOStuff.MOD_ID);
 	
 	public static final RegistryObject<Block> TEST_BLOCK = BLOCKS.register("test_block", () -> new Block(AbstractBlock.Properties.create(Material.IRON, MaterialColor.BLACK).hardnessAndResistance(0.1f).sound(SoundType.NETHER_BRICK)));
+
 }
