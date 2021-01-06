@@ -9,15 +9,6 @@
           "name": "muzuly_bunchostuff:bloody_cobblestone"
         }
       ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:spider_eye"
-        }
-      ]
     }
   ]
 }
