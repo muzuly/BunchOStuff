@@ -1,1 +1,3 @@
 $GIT_DIR/.gradle
+/.gradle/
+/build/
