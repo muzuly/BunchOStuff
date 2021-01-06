@@ -1,4 +1,4 @@
-Args: "--in-jar", "M:\Documents\Minecraft Mod\MuchOStuff\build\libs\modid-1.0.jar", "--out-jar", "M:\Documents\Minecraft Mod\MuchOStuff\build\reobfJar\output.jar", "--srg-in", "M:\Documents\Minecraft Mod\MuchOStuff\build\createMcpToSrg\output.tsrg", "--live"
+Args: "--in-jar", "M:\Documents\Minecraft Mod\MuchOStuffDev\build\libs\modid-1.0.jar", "--out-jar", "M:\Documents\Minecraft Mod\MuchOStuffDev\build\reobfJar\output.jar", "--srg-in", "M:\Documents\Minecraft Mod\MuchOStuffDev\build\createMcpToSrg\output.tsrg", "--live"
 Classpath: C:\Users\joshb_000\.gradle\caches\forge_gradle\maven_downloader\net\md-5\SpecialSource\1.8.3\SpecialSource-1.8.3-shaded.jar
 Classpath: C:\Users\joshb_000\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.16.4-35.1.32_mapped_snapshot_20201028-1.16.3\forge-1.16.4-35.1.32_mapped_snapshot_20201028-1.16.3-recomp.jar
 Classpath: C:\Users\joshb_000\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.16.4-35.1.32_mapped_snapshot_20201028-1.16.3\forge-1.16.4-35.1.32_mapped_snapshot_20201028-1.16.3-launcher.jar
@@ -74,7 +74,7 @@ Classpath: C:\Users\joshb_000\.gradle\caches\modules-2\files-2.1\net.java.jinput
 Classpath: C:\Users\joshb_000\.gradle\caches\modules-2\files-2.1\net.java.jinput\jinput-platform\2.0.5\53f9c919f34d2ca9de8c51fc4e1e8282029a9232\jinput-platform-2.0.5-natives-osx.jar
 Classpath: C:\Users\joshb_000\.gradle\caches\modules-2\files-2.1\org.codehaus.plexus\plexus-utils\3.2.1\13b015768e0d04849d2794e4c47eb02d01a0de32\plexus-utils-3.2.1.jar
 Classpath: C:\Users\joshb_000\.gradle\caches\modules-2\files-2.1\org.jline\jline-terminal\3.12.1\c777448314e050d980a6b697c140f3bfe9eb7416\jline-terminal-3.12.1.jar
-WorkDir: M:\Documents\Minecraft Mod\MuchOStuff\build\reobfJar
+WorkDir: M:\Documents\Minecraft Mod\MuchOStuffDev\build\reobfJar
 Main: net.md_5.specialsource.SpecialSource
 ====================================
 Loading mappings
