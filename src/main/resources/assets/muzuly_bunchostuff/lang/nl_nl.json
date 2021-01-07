@@ -2,5 +2,9 @@
 	"item.muzuly_bunchostuff.test_item": "Testitem",
 	"block.muzuly_bunchostuff.test_block": "Ontbrekend Blok?",
 	"item.muzuly_bunchostuff.iron_ring_item": "Ijzeren Ring",
-	"block.muzuly_bunchostuff.bloody_cobblestone": "Bloedige Kasseien"
+	"block.muzuly_bunchostuff.bloody_cobblestone": "Bloedige Kasseien",
+		"item.muzuly_bunchostuff.gold_ring_item": "Gouden Ring",
+	"item.muzuly_bunchostuff.diamond_ring_item": "Diamanten Ring",
+	"block.muzuly_bunchostuff.blue_planks": "Blauwe Planken",
+	"item.muzuly_bunchostuff.peach": "Perzik"
 }

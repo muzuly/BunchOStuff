@@ -1,19 +1,20 @@
 {
     "type": "minecraft:crafting_shaped",
     "pattern": [
-        "#",
-        "i"
+        "#  ",
+        "i  ",
+        "   "
     ],
     "key": {
         "#": {
-            "item": "minecraft:lightning_pendant"
+            "item": "muzuly_bunchostuff:lightning_pendant"
         },
         "i": {
-            "item": "minecraft:iron_ingot"
+            "item": "muzuly_bunchostuff:iron_ring_item"
         }
     },
     "result": {
-        "item": "minecraft:iron_lightning_ring_item",
+        "item": "muzuly_bunchostuff:iron_lightning_ring_item",
         "count": 1
     }
 }

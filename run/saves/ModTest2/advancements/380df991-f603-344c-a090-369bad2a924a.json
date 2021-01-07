@@ -11,6 +11,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/tnt": {
+    "criteria": {
+      "has_gunpowder": "2021-01-07 09:39:31 -0600"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/lever": {
     "criteria": {
       "has_cobblestone": "2021-01-06 12:59:48 -0600"
@@ -26,6 +32,12 @@
   "minecraft:recipes/misc/cyan_dye": {
     "criteria": {
       "has_blue_dye": "2021-01-06 16:20:00 -0600"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_a_mob": {
+    "criteria": {
+      "minecraft:creeper": "2021-01-07 09:39:16 -0600"
     },
     "done": true
   },
@@ -293,6 +305,12 @@
     },
     "done": true
   },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_something": "2021-01-07 09:39:16 -0600"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/purple_dye": {
     "criteria": {
       "has_blue_dye": "2021-01-06 16:20:00 -0600"
@@ -358,6 +376,12 @@
       "has_diamond": "2021-01-06 15:35:10 -0600"
     },
     "done": true
+  },
+  "minecraft:adventure/kill_all_mobs": {
+    "criteria": {
+      "minecraft:creeper": "2021-01-07 09:39:16 -0600"
+    },
+    "done": false
   },
   "minecraft:recipes/misc/gold_nugget": {
     "criteria": {

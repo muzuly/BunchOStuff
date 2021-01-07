@@ -4,7 +4,9 @@ import io.github.muzuly.bunchostuff.BunchOStuff;
 
 
 import net.minecraft.item.BlockItem;
+import net.minecraft.item.Foods;
 import net.minecraft.item.Item;
+import net.minecraft.item.Item.Properties;
 import net.minecraft.item.ItemGroup;
 import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.registries.DeferredRegister;
@@ -26,6 +28,15 @@ public class ItemInit {
 	
 	public static final RegistryObject<Item> DIAMOND_RING_ITEM = ITEMS.register("diamond_ring_item",
 			() -> new Item(new Item.Properties().group(ItemGroup.MISC).maxStackSize(1)));
+	
+	public static final RegistryObject<Item> LIGHTNING_PENDANT = ITEMS.register("lightning_pendant", 
+			() -> new Item(new Item.Properties().group(ItemGroup.MISC).maxStackSize(1)));
+	
+	public static final RegistryObject<Item> IRON_LIGHTNING_RING = ITEMS.register("iron_lightning_ring_item", 
+			() -> new Item(new Item.Properties().group(ItemGroup.MISC).maxStackSize(1)));
+	
+	public static final RegistryObject<Item> PEACH = ITEMS.register("peach", 
+			() -> new Item(new Item.Properties().group(ItemGroup.FOOD).food(Foods.APPLE)));
 	
 	// BLOCK ITEMS
 	public static final RegistryObject<BlockItem> TEST_BLOCK = ITEMS.register("test_block", 
