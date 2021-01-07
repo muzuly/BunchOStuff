@@ -3,14 +3,14 @@ package io.github.muzuly.bunchostuff.core.init;
 import io.github.muzuly.bunchostuff.BunchOStuff;
 
 
+import net.minecraft.item.Item;
+import net.minecraft.item.ItemGroup;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Foods;
-import net.minecraft.item.Item;
-import net.minecraft.item.Item.Properties;
-import net.minecraft.item.ItemGroup;
 import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
+import io.github.muzuly.bunchostuff.common.items.InstantHealthRing;
 
 public class ItemInit {
 
@@ -29,14 +29,14 @@ public class ItemInit {
 	public static final RegistryObject<Item> DIAMOND_RING_ITEM = ITEMS.register("diamond_ring_item",
 			() -> new Item(new Item.Properties().group(ItemGroup.MISC).maxStackSize(1)));
 	
-	public static final RegistryObject<Item> LIGHTNING_PENDANT = ITEMS.register("lightning_pendant", 
-			() -> new Item(new Item.Properties().group(ItemGroup.MISC).maxStackSize(1)));
-	
-	public static final RegistryObject<Item> IRON_LIGHTNING_RING = ITEMS.register("iron_lightning_ring_item", 
+	public static final RegistryObject<Item> INSTANT_HEALTH_PENDANT = ITEMS.register("instant_health_pendant", 
 			() -> new Item(new Item.Properties().group(ItemGroup.MISC).maxStackSize(1)));
 	
 	public static final RegistryObject<Item> PEACH = ITEMS.register("peach", 
 			() -> new Item(new Item.Properties().group(ItemGroup.FOOD).food(Foods.APPLE)));
+	
+	public static final RegistryObject<InstantHealthRing> IRON_INSTANT_HEALTH_RING = ITEMS.register("iron_instant_health_ring", 
+			() -> new InstantHealthRing(new Item.Properties().group(ItemGroup.MISC).maxStackSize(1)));
 	
 	// BLOCK ITEMS
 	public static final RegistryObject<BlockItem> TEST_BLOCK = ITEMS.register("test_block", 
@@ -47,4 +47,5 @@ public class ItemInit {
 	
 	public static final RegistryObject<BlockItem> BLUE_PLANKS = ITEMS.register("blue_planks", 
 			() -> new BlockItem(BlockInit.BLUE_PLANKS.get(), new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)));
+
 }

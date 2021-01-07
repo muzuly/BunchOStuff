@@ -6,5 +6,8 @@
 	"item.muzuly_bunchostuff.gold_ring_item": "Gold Ring",
 	"item.muzuly_bunchostuff.diamond_ring_item": "Diamond Ring",
 	"block.muzuly_bunchostuff.blue_planks": "Blue Planks",
-	"item.muzuly_bunchostuff.peach": "Peach"
+	"item.muzuly_bunchostuff.peach": "Peach",
+	"item.muzuly_bunchostuff.iron_instant_health_ring": "\u00A7e\u00A7oRing of Recovery\u00A7r",
+	"tooltip.special_item.instant_health_ring_tooltip": "It's like the \u00A7e\u00A7oRing of Niebelung\u00A7r but the exact opposite. Restores the user to full health instantly upon use.",
+	"item.muzuly_bunchostuff.instant_health_pendant": "Instant Health Pendant"
 }
