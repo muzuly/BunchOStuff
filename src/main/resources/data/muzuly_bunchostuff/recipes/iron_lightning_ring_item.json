@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#",
+        "i"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:lightning_pendant"
+        },
+        "i": {
+            "item": "minecraft:iron_ingot"
+        }
+    },
+    "result": {
+        "item": "minecraft:iron_lightning_ring_item",
+        "count": 1
+    }
+}
