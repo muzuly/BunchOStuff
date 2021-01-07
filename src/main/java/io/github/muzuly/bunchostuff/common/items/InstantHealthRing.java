@@ -40,7 +40,8 @@ public class InstantHealthRing extends Item {
 	@Override
 	public ActionResult<ItemStack> onItemRightClick(World worldIn, PlayerEntity playerIn, Hand handIn) {
 		// TODO Auto-generated method stub
-		playerIn.addPotionEffect(new EffectInstance(Effects.INSTANT_HEALTH, 1, 4));
+		playerIn.addPotionEffect(new EffectInstance(Effects.INSTANT_HEALTH, 20, 4));
+		playerIn.curePotionEffects(getDefaultInstance());
 		return ActionResult.resultSuccess(playerIn.getHeldItem(handIn));
 	}
 }
