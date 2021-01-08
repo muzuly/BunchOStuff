@@ -4,6 +4,7 @@ import io.github.muzuly.bunchostuff.BunchOStuff;
 
 
 import net.minecraft.item.Item;
+import net.minecraft.item.Item.Properties;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Foods;
@@ -40,7 +41,7 @@ public class ItemInit {
 			() -> new InstantHealthRing(new Item.Properties().group(ItemGroup.MISC).maxStackSize(1)));
 	
 	public static final RegistryObject<FlightRing> IRON_FLIGHT_RING = ITEMS.register("iron_flight_ring",
-			() -> new FlightRing(new Item.Properties().group(ItemGroup.TRANSPORTATION).maxStackSize(1)));
+			() -> new FlightRing(new Item.Properties().group(ItemGroup.COMBAT).maxStackSize(1)));
 	
 	// BLOCK ITEMS
 	public static final RegistryObject<BlockItem> TEST_BLOCK = ITEMS.register("test_block", 
@@ -51,5 +52,8 @@ public class ItemInit {
 	
 	public static final RegistryObject<BlockItem> BLUE_PLANKS = ITEMS.register("blue_planks", 
 			() -> new BlockItem(BlockInit.BLUE_PLANKS.get(), new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)));
+	
+	public static final RegistryObject<BlockItem> RED_PLANKS = ITEMS.register("red_planks", 
+			() -> new BlockItem(BlockInit.RED_PLANKS.get(), new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)));
 
 }

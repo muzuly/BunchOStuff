@@ -36,6 +36,7 @@ public class FlightRing extends Item {
 		// TODO Auto-generated method stub
 		if (Hand.MAIN_HAND != null) {
 			playerIn.abilities.allowFlying = true;
+			playerIn.abilities.allowFlying = false;
 		}
 		return ActionResult.resultSuccess(playerIn.getHeldItem(handIn));
 	}
