@@ -50,6 +50,9 @@ public class ItemInit {
 	public static final RegistryObject<Item> DIAMOND_RING_ITEM = ITEMS.register("diamond_ring_item",
 			() -> new Item(new Item.Properties().group(ItemGroup.MISC).maxStackSize(1)));
 	
+	public static final RegistryObject<Item> OBSIDIAN_INGOT = ITEMS.register("obsidian_ingot",
+			() -> new Item(new Item.Properties().group(ItemGroup.MISC)));
+	
 	public static final RegistryObject<Item> INSTANT_HEALTH_PENDANT = ITEMS.register("instant_health_pendant", 
 			() -> new Item(new Item.Properties().group(ItemGroup.MISC).maxStackSize(1)));
 

@@ -167,6 +167,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/tools/flint_and_steel": {
+    "criteria": {
+      "has_obsidian": "2021-01-08 15:33:41 -0600"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/stone_shovel": {
     "criteria": {
       "has_cobblestone": "2021-01-06 12:59:48 -0600"
@@ -296,6 +302,12 @@
   "minecraft:recipes/redstone/oak_trapdoor": {
     "criteria": {
       "has_planks": "2021-01-06 16:14:25 -0600"
+    },
+    "done": true
+  },
+  "minecraft:story/form_obsidian": {
+    "criteria": {
+      "obsidian": "2021-01-08 15:33:41 -0600"
     },
     "done": true
   },
@@ -478,6 +490,12 @@
   "minecraft:recipes/decorations/barrel": {
     "criteria": {
       "has_planks": "2021-01-06 16:14:25 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/enchanting_table": {
+    "criteria": {
+      "has_obsidian": "2021-01-08 15:33:41 -0600"
     },
     "done": true
   },
