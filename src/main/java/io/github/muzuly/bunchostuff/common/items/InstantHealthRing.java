@@ -1,10 +1,6 @@
 package io.github.muzuly.bunchostuff.common.items;
 
 import java.util.List;
-
-import org.lwjgl.glfw.GLFW;
-
-import net.minecraft.client.Minecraft;
 import net.minecraft.client.util.ITooltipFlag;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.Item;
@@ -18,7 +14,7 @@ import net.minecraft.util.text.TranslationTextComponent;
 import net.minecraft.world.World;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.api.distmarker.OnlyIn;
-import net.minecraft.client.util.InputMappings;
+
 
 public class InstantHealthRing extends Item {
 	
@@ -42,6 +38,7 @@ public class InstantHealthRing extends Item {
 		// TODO Auto-generated method stub
 		playerIn.addPotionEffect(new EffectInstance(Effects.INSTANT_HEALTH, 20, 4));
 		playerIn.curePotionEffects(getDefaultInstance());
+		playerIn.getCooldownTracker().setCooldown(this, 1200);
 		return ActionResult.resultSuccess(playerIn.getHeldItem(handIn));
 	}
 }

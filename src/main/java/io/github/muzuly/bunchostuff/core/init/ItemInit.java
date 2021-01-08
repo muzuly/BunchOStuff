@@ -11,6 +11,7 @@ import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import io.github.muzuly.bunchostuff.common.items.InstantHealthRing;
+import io.github.muzuly.bunchostuff.common.items.FlightRing;
 
 public class ItemInit {
 
@@ -37,6 +38,9 @@ public class ItemInit {
 	
 	public static final RegistryObject<InstantHealthRing> IRON_INSTANT_HEALTH_RING = ITEMS.register("iron_instant_health_ring", 
 			() -> new InstantHealthRing(new Item.Properties().group(ItemGroup.MISC).maxStackSize(1)));
+	
+	public static final RegistryObject<FlightRing> IRON_FLIGHT_RING = ITEMS.register("iron_flight_ring",
+			() -> new FlightRing(new Item.Properties().group(ItemGroup.TRANSPORTATION).maxStackSize(1)));
 	
 	// BLOCK ITEMS
 	public static final RegistryObject<BlockItem> TEST_BLOCK = ITEMS.register("test_block", 
