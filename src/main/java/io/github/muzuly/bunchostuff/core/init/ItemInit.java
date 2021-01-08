@@ -3,8 +3,9 @@ package io.github.muzuly.bunchostuff.core.init;
 import io.github.muzuly.bunchostuff.BunchOStuff;
 
 
+
+
 import net.minecraft.item.Item;
-import net.minecraft.item.Item.Properties;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Foods;
@@ -12,6 +13,8 @@ import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import io.github.muzuly.bunchostuff.common.items.InstantHealthRing;
+import io.github.muzuly.bunchostuff.core.enums.ToolMaterialList;
+import io.github.muzuly.bunchostuff.common.items.EmeraldSword;
 import io.github.muzuly.bunchostuff.common.items.FlightRing;
 
 public class ItemInit {
@@ -42,7 +45,10 @@ public class ItemInit {
 	
 	public static final RegistryObject<FlightRing> IRON_FLIGHT_RING = ITEMS.register("iron_flight_ring",
 			() -> new FlightRing(new Item.Properties().group(ItemGroup.COMBAT).maxStackSize(1)));
-	
+			
+	public static final RegistryObject<Item> EMERALD_SWORD = ITEMS.register("emerald_sword", 
+			() -> new EmeraldSword(ToolMaterialList.EMERALD_MATERIAL, 1, -2.4f, new Item.Properties().maxStackSize(1).group(ItemGroup.COMBAT)));
+			
 	// BLOCK ITEMS
 	public static final RegistryObject<BlockItem> TEST_BLOCK = ITEMS.register("test_block", 
 			() -> new BlockItem(BlockInit.TEST_BLOCK.get(), new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)));

@@ -1,4 +1,16 @@
 {
+  "minecraft:recipes/misc/pink_dye_from_red_white_dye": {
+    "criteria": {
+      "has_red_dye": "2021-01-08 07:53:00 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_axe": {
+    "criteria": {
+      "has_stick": "2021-01-08 11:58:53 -0600"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/lever": {
     "criteria": {
       "has_cobblestone": "2021-01-06 12:59:48 -0600"
@@ -53,9 +65,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/campfire": {
+    "criteria": {
+      "has_stick": "2021-01-08 11:58:53 -0600"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/golden_hoe": {
     "criteria": {
       "has_gold_ingot": "2021-01-06 15:08:42 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/ladder": {
+    "criteria": {
+      "has_stick": "2021-01-08 11:58:53 -0600"
     },
     "done": true
   },
@@ -83,6 +107,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/tools/wooden_shovel": {
+    "criteria": {
+      "has_stick": "2021-01-08 11:58:53 -0600"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/red_dye_from_poppy": {
     "criteria": {
       "has_red_flower": "2021-01-06 09:43:31 -0600"
@@ -104,6 +134,12 @@
   "minecraft:recipes/tools/shears": {
     "criteria": {
       "has_iron_ingot": "2021-01-06 11:51:39 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/red_carpet_from_white_carpet": {
+    "criteria": {
+      "has_red_dye": "2021-01-08 07:53:00 -0600"
     },
     "done": true
   },
@@ -137,6 +173,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/combat/wooden_sword": {
+    "criteria": {
+      "has_stick": "2021-01-08 11:58:53 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/emerald_block": {
+    "criteria": {
+      "has_emerald": "2021-01-08 11:58:58 -0600"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/gold_nugget": {
     "criteria": {
       "has_gold_ingot": "2021-01-06 15:08:42 -0600"
@@ -166,6 +214,12 @@
       "cooked_beef": "2021-01-06 15:21:08 -0600"
     },
     "done": false
+  },
+  "minecraft:recipes/tools/wooden_hoe": {
+    "criteria": {
+      "has_stick": "2021-01-08 11:58:53 -0600"
+    },
+    "done": true
   },
   "minecraft:recipes/combat/shield": {
     "criteria": {
@@ -349,7 +403,9 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
-      "minecraft:forest": "2021-01-06 09:39:49 -0600"
+      "minecraft:forest": "2021-01-06 09:39:49 -0600",
+      "minecraft:river": "2021-01-08 11:32:25 -0600",
+      "minecraft:plains": "2021-01-08 11:32:49 -0600"
     },
     "done": false
   },
@@ -368,6 +424,12 @@
   "minecraft:recipes/tools/iron_hoe": {
     "criteria": {
       "has_iron_ingot": "2021-01-06 11:51:39 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_pickaxe": {
+    "criteria": {
+      "has_stick": "2021-01-08 11:58:53 -0600"
     },
     "done": true
   },
@@ -505,6 +567,7 @@
   },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
+      "minecraft:skeleton": "2021-01-08 12:11:35 -0600",
       "minecraft:creeper": "2021-01-07 09:39:16 -0600",
       "minecraft:zombie": "2021-01-07 16:03:28 -0600"
     },
@@ -561,6 +624,24 @@
   "minecraft:recipes/decorations/oak_fence": {
     "criteria": {
       "has_planks": "2021-01-06 16:14:25 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/red_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_red_dye": "2021-01-08 07:53:00 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/orange_dye_from_red_yellow": {
+    "criteria": {
+      "has_red_dye": "2021-01-08 07:53:00 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/soul_campfire": {
+    "criteria": {
+      "has_stick": "2021-01-08 11:58:53 -0600"
     },
     "done": true
   },

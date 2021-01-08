@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " # ",
+        "#B#",
+        " # "
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:oak_planks"
+        },
+        "B": {
+            "item": "minecraft:red_dye"
+        }
+    },
+    "result": {
+    	"item": "muzuly_bunchostuff:red_planks",
+    	"count": 4
+    }
+}
