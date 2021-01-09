@@ -4,6 +4,8 @@ import io.github.muzuly.bunchostuff.BunchOStuff;
 
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
+import net.minecraft.inventory.EquipmentSlotType;
+import net.minecraft.item.ArmorItem;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Foods;
 import net.minecraftforge.fml.RegistryObject;
@@ -27,6 +29,7 @@ import io.github.muzuly.bunchostuff.common.items.ObsidianTools.ObsidianSword;
 import io.github.muzuly.bunchostuff.common.items.Rings.FlightRing;
 import io.github.muzuly.bunchostuff.common.items.Rings.InstantHealthRing;
 import io.github.muzuly.bunchostuff.core.enums.ToolMaterialList;
+import io.github.muzuly.bunchostuff.core.enums.ArmorMaterialList;
 
 public class ItemInit {
 
@@ -71,19 +74,19 @@ public class ItemInit {
 	//TOOLS
 	//EMERALD TOOLS
 	public static final RegistryObject<Item> EMERALD_SWORD = ITEMS.register("emerald_sword", 
-			() -> new EmeraldSword(ToolMaterialList.EMERALD_MATERIAL, 4, -2.4f, new Item.Properties().maxStackSize(1).group(ItemGroup.COMBAT)));
+			() -> new EmeraldSword(ToolMaterialList.EMERALDTOOLMATERIAL, 4, -2.4f, new Item.Properties().maxStackSize(1).group(ItemGroup.COMBAT)));
 	
 	public static final RegistryObject<Item> EMERALD_SHOVEL = ITEMS.register("emerald_shovel", 
-			() -> new EmeraldShovel(ToolMaterialList.EMERALD_MATERIAL, 2.5f, -3.0f, new Item.Properties().group(ItemGroup.TOOLS)));
+			() -> new EmeraldShovel(ToolMaterialList.EMERALDTOOLMATERIAL, 2.5f, -3.0f, new Item.Properties().group(ItemGroup.TOOLS)));
 	
 	public static final RegistryObject<Item> EMERALD_PICKAXE = ITEMS.register("emerald_pickaxe", 
-			() -> new EmeraldPickaxe(ToolMaterialList.EMERALD_MATERIAL, 2, -2.8f, new Item.Properties().group(ItemGroup.TOOLS)));
+			() -> new EmeraldPickaxe(ToolMaterialList.EMERALDTOOLMATERIAL, 2, -2.8f, new Item.Properties().group(ItemGroup.TOOLS)));
 	
 	public static final RegistryObject<Item> EMERALD_AXE = ITEMS.register("emerald_axe", 
-			() -> new EmeraldAxe(ToolMaterialList.EMERALD_MATERIAL, 7f, -3f, new Item.Properties().group(ItemGroup.TOOLS)));
+			() -> new EmeraldAxe(ToolMaterialList.EMERALDTOOLMATERIAL, 7f, -3f, new Item.Properties().group(ItemGroup.TOOLS)));
 	
 	public static final RegistryObject<Item> EMERALD_HOE = ITEMS.register("emerald_hoe", 
-			() -> new EmeraldHoe(ToolMaterialList.EMERALD_MATERIAL, -1, 0f, new Item.Properties().group(ItemGroup.TOOLS)));
+			() -> new EmeraldHoe(ToolMaterialList.EMERALDTOOLMATERIAL, -1, 0f, new Item.Properties().group(ItemGroup.TOOLS)));
 	
 	//END TOOLS
 //	public static final RegistryObject<Item> END_SWORD = ITEMS.register("end_sword", 
@@ -103,19 +106,40 @@ public class ItemInit {
 	
 	//OBSIDIAN TOOLS
 	public static final RegistryObject<Item> OBSIDIAN_SWORD = ITEMS.register("obsidian_sword", 
-			() -> new ObsidianSword(ToolMaterialList.OBSIDIAN_MATERIAL, 5, -2.4f, new Item.Properties().maxStackSize(1).group(ItemGroup.COMBAT)));
+			() -> new ObsidianSword(ToolMaterialList.OBSIDIANTOOLMATERIAL, 5, -2.4f, new Item.Properties().maxStackSize(1).group(ItemGroup.COMBAT)));
 	
 	public static final RegistryObject<Item> OBSIDIAN_SHOVEL = ITEMS.register("obsidian_shovel", 
-			() -> new ObsidianShovel(ToolMaterialList.OBSIDIAN_MATERIAL, 3.5f, -3.0f, new Item.Properties().group(ItemGroup.TOOLS)));
+			() -> new ObsidianShovel(ToolMaterialList.OBSIDIANTOOLMATERIAL, 3.5f, -3.0f, new Item.Properties().group(ItemGroup.TOOLS)));
 	
 	public static final RegistryObject<Item> OBSIDIAN_PICKAXE = ITEMS.register("obsidian_pickaxe", 
-			() -> new ObsidianPickaxe(ToolMaterialList.OBSIDIAN_MATERIAL, 3, -2.8f, new Item.Properties().group(ItemGroup.TOOLS)));
+			() -> new ObsidianPickaxe(ToolMaterialList.OBSIDIANTOOLMATERIAL, 3, -2.8f, new Item.Properties().group(ItemGroup.TOOLS)));
 	
 	public static final RegistryObject<Item> OBSIDIAN_AXE = ITEMS.register("obsidian_axe", 
-			() -> new ObsidianAxe(ToolMaterialList.OBSIDIAN_MATERIAL, 7f, -3f, new Item.Properties().group(ItemGroup.TOOLS)));
+			() -> new ObsidianAxe(ToolMaterialList.OBSIDIANTOOLMATERIAL, 7f, -3f, new Item.Properties().group(ItemGroup.TOOLS)));
 	
 	public static final RegistryObject<Item> OBSIDIAN_HOE = ITEMS.register("obsidian_hoe", 
-			() -> new ObsidianHoe(ToolMaterialList.OBSIDIAN_MATERIAL, -1, 0f, new Item.Properties().group(ItemGroup.TOOLS)));
+			() -> new ObsidianHoe(ToolMaterialList.OBSIDIANTOOLMATERIAL, -1, 0f, new Item.Properties().group(ItemGroup.TOOLS)));
+	
+	//ARMOR
+	//EMERALD ARMOR
+	public static final RegistryObject<Item> EMERALD_HELMET = ITEMS.register("emerald_helmet",
+			() -> new ArmorItem(ArmorMaterialList.EMERALDARMORMATERIAL, EquipmentSlotType.HEAD, new Item.Properties().group(ItemGroup.COMBAT)));
+	public static final RegistryObject<Item> EMERALD_CHESTPLATE = ITEMS.register("emerald_chestplate",
+			() -> new ArmorItem(ArmorMaterialList.EMERALDARMORMATERIAL, EquipmentSlotType.CHEST, new Item.Properties().group(ItemGroup.COMBAT)));
+	public static final RegistryObject<Item> EMERALD_LEGGINGS = ITEMS.register("emerald_leggings",
+			() -> new ArmorItem(ArmorMaterialList.EMERALDARMORMATERIAL, EquipmentSlotType.LEGS, new Item.Properties().group(ItemGroup.COMBAT)));
+	public static final RegistryObject<Item> EMERALD_BOOTS = ITEMS.register("emerald_boots",
+			() -> new ArmorItem(ArmorMaterialList.EMERALDARMORMATERIAL, EquipmentSlotType.FEET, new Item.Properties().group(ItemGroup.COMBAT)));
+	
+	//OBSIDIAN ARMOR
+	public static final RegistryObject<Item> OBSIDIAN_HELMET = ITEMS.register("obsidian_helmet",
+			() -> new ArmorItem(ArmorMaterialList.OBSIDIANARMORMATERIAL, EquipmentSlotType.HEAD, new Item.Properties().group(ItemGroup.COMBAT)));
+	public static final RegistryObject<Item> OBSIDIAN_CHESTPLATE = ITEMS.register("obsidian_chestplate",
+			() -> new ArmorItem(ArmorMaterialList.OBSIDIANARMORMATERIAL, EquipmentSlotType.CHEST, new Item.Properties().group(ItemGroup.COMBAT)));
+	public static final RegistryObject<Item> OBSIDIAN_LEGGINGS = ITEMS.register("obsidian_leggings",
+			() -> new ArmorItem(ArmorMaterialList.OBSIDIANARMORMATERIAL, EquipmentSlotType.LEGS, new Item.Properties().group(ItemGroup.COMBAT)));
+	public static final RegistryObject<Item> OBSIDIAN_BOOTS = ITEMS.register("obsidian_boots",
+			() -> new ArmorItem(ArmorMaterialList.OBSIDIANARMORMATERIAL, EquipmentSlotType.FEET, new Item.Properties().group(ItemGroup.COMBAT)));
 			
 	// BLOCK ITEMS
 	public static final RegistryObject<BlockItem> TEST_BLOCK = ITEMS.register("test_block", 
