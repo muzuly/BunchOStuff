@@ -10,9 +10,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### minecraft-forge-api
 
-The Bunch O' Stuff mod runs on the Minecraft [Forge 1.16.4+](http://files.minecraftforge.net/maven/net/minecraftforge/forge/index_1.16.4.html) modding API. 
-
-To install and setup Forge download the recommended universal installer and run it. After this open your .minecraft folder, on Windows stored by default, "C:\Users\USER\AppData\Roaming\.minecraft" and create a folder titled "mods" if one has not already been created. You can now added the Forge 1.16.4 profile in the Minecraft launcher. This can also be installed with a shell script on linux.
+The Bunch O' Stuff mod runs on the Minecraft [Forge 1.16.4+](http://files.minecraftforge.net/maven/net/minecraftforge/forge/index_1.16.4.html) modding API. To install and setup Forge download the recommended universal installer and run it. After this open your .minecraft folder, on Windows stored by default, "C:\Users\USER\AppData\Roaming\.minecraft" and create a folder titled "mods" if one has not already been created. You can now added the Forge 1.16.4 profile in the Minecraft launcher. This can also be installed with a shell script on linux.
 
 ### mod-setup
 
