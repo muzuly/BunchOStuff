@@ -40,6 +40,12 @@ public class ItemInit {
 	public static final RegistryObject<Item> PEACH = ITEMS.register("peach", 
 			() -> new Item(new Item.Properties().group(ItemGroup.FOOD).food(Foods.APPLE)));
 	
+	public static final RegistryObject<Item> APPLE_PIE = ITEMS.register("apple_pie", 
+			() -> new Item(new Item.Properties().group(ItemGroup.FOOD).food(Foods.COOKED_CHICKEN)));
+	
+	public static final RegistryObject<Item> CHOCOLATE = ITEMS.register("chocolate", 
+			() -> new Item(new Item.Properties().group(ItemGroup.FOOD).food(Foods.DRIED_KELP)));
+	
 	//RINGS & PENDANTS
 	public static final RegistryObject<Item> IRON_RING_ITEM = ITEMS.register("iron_ring_item",
 			() -> new Item(new Item.Properties().group(ItemGroup.MISC).maxStackSize(1)));
