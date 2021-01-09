@@ -1,6 +1,6 @@
 package io.github.muzuly.bunchostuff.core.init;
 
-import io.github.muzuly.bunchostuff.BunchOStuff;
+import io.github.muzuly.bunchostuff.BunchOStuff; 
 
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
@@ -49,6 +49,9 @@ public class ItemInit {
 	public static final RegistryObject<Item> CHOCOLATE = ITEMS.register("chocolate", 
 			() -> new Item(new Item.Properties().group(ItemGroup.FOOD).food(Foods.DRIED_KELP)));
 	
+	public static final RegistryObject<Item> RUBY = ITEMS.register("ruby",
+			() -> new Item(new Item.Properties().group(ItemGroup.MISC)));
+	
 	//RINGS & PENDANTS
 	public static final RegistryObject<Item> IRON_RING_ITEM = ITEMS.register("iron_ring_item",
 			() -> new Item(new Item.Properties().group(ItemGroup.MISC).maxStackSize(1)));
@@ -65,7 +68,7 @@ public class ItemInit {
 	public static final RegistryObject<Item> INSTANT_HEALTH_PENDANT = ITEMS.register("instant_health_pendant", 
 			() -> new Item(new Item.Properties().group(ItemGroup.MISC).maxStackSize(1)));
 
-		public static final RegistryObject<InstantHealthRing> IRON_INSTANT_HEALTH_RING = ITEMS.register("iron_instant_health_ring", 
+	public static final RegistryObject<InstantHealthRing> IRON_INSTANT_HEALTH_RING = ITEMS.register("iron_instant_health_ring", 
 			() -> new InstantHealthRing(new Item.Properties().group(ItemGroup.MISC).maxStackSize(1)));
 	
 	public static final RegistryObject<FlightRing> IRON_FLIGHT_RING = ITEMS.register("iron_flight_ring",
@@ -77,7 +80,7 @@ public class ItemInit {
 			() -> new EmeraldSword(ToolMaterialList.EMERALDTOOLMATERIAL, 4, -2.4f, new Item.Properties().maxStackSize(1).group(ItemGroup.COMBAT)));
 	
 	public static final RegistryObject<Item> EMERALD_SHOVEL = ITEMS.register("emerald_shovel", 
-			() -> new EmeraldShovel(ToolMaterialList.EMERALDTOOLMATERIAL, 2.5f, -3.0f, new Item.Properties().group(ItemGroup.TOOLS)));
+			() -> new EmeraldShovel(ToolMaterialList.EMERALDTOOLMATERIAL, 3f, -3.0f, new Item.Properties().group(ItemGroup.TOOLS)));
 	
 	public static final RegistryObject<Item> EMERALD_PICKAXE = ITEMS.register("emerald_pickaxe", 
 			() -> new EmeraldPickaxe(ToolMaterialList.EMERALDTOOLMATERIAL, 2, -2.8f, new Item.Properties().group(ItemGroup.TOOLS)));
@@ -120,6 +123,22 @@ public class ItemInit {
 	public static final RegistryObject<Item> OBSIDIAN_HOE = ITEMS.register("obsidian_hoe", 
 			() -> new ObsidianHoe(ToolMaterialList.OBSIDIANTOOLMATERIAL, -1, 0f, new Item.Properties().group(ItemGroup.TOOLS)));
 	
+	//RUBY TOOLS
+	public static final RegistryObject<Item> RUBY_SWORD = ITEMS.register("ruby_sword", 
+			() -> new EmeraldSword(ToolMaterialList.RUBYTOOLMATERIAL, 5, -2.4f, new Item.Properties().maxStackSize(1).group(ItemGroup.COMBAT)));
+	
+	public static final RegistryObject<Item> RUBY_SHOVEL = ITEMS.register("ruby_shovel", 
+			() -> new EmeraldShovel(ToolMaterialList.RUBYTOOLMATERIAL, 4f, -3.0f, new Item.Properties().group(ItemGroup.TOOLS)));
+	
+	public static final RegistryObject<Item> RUBY_PICKAXE = ITEMS.register("ruby_pickaxe", 
+			() -> new EmeraldPickaxe(ToolMaterialList.RUBYTOOLMATERIAL, 3, -2.8f, new Item.Properties().group(ItemGroup.TOOLS)));
+	
+	public static final RegistryObject<Item> RUBY_AXE = ITEMS.register("ruby_axe", 
+			() -> new EmeraldAxe(ToolMaterialList.RUBYTOOLMATERIAL, 7.5f, -3f, new Item.Properties().group(ItemGroup.TOOLS)));
+	
+	public static final RegistryObject<Item> RUBY_HOE = ITEMS.register("ruby_hoe", 
+			() -> new EmeraldHoe(ToolMaterialList.RUBYTOOLMATERIAL, -1, 0f, new Item.Properties().group(ItemGroup.TOOLS)));
+	
 	//ARMOR
 	//EMERALD ARMOR
 	public static final RegistryObject<Item> EMERALD_HELMET = ITEMS.register("emerald_helmet",
@@ -141,6 +160,17 @@ public class ItemInit {
 	public static final RegistryObject<Item> OBSIDIAN_BOOTS = ITEMS.register("obsidian_boots",
 			() -> new ArmorItem(ArmorMaterialList.OBSIDIANARMORMATERIAL, EquipmentSlotType.FEET, new Item.Properties().group(ItemGroup.COMBAT)));
 			
+	//RUBY ARMOR
+	public static final RegistryObject<Item> RUBY_HELMET = ITEMS.register("ruby_helmet",
+			() -> new ArmorItem(ArmorMaterialList.RUBYARMORMATERIAL, EquipmentSlotType.HEAD, new Item.Properties().group(ItemGroup.COMBAT)));
+	public static final RegistryObject<Item> RUBY_CHESTPLATE = ITEMS.register("ruby_chestplate",
+			() -> new ArmorItem(ArmorMaterialList.RUBYARMORMATERIAL, EquipmentSlotType.CHEST, new Item.Properties().group(ItemGroup.COMBAT)));
+	public static final RegistryObject<Item> RUBY_LEGGINGS = ITEMS.register("ruby_leggings",
+			() -> new ArmorItem(ArmorMaterialList.RUBYARMORMATERIAL, EquipmentSlotType.LEGS, new Item.Properties().group(ItemGroup.COMBAT)));
+	public static final RegistryObject<Item> RUBY_BOOTS = ITEMS.register("ruby_boots",
+			() -> new ArmorItem(ArmorMaterialList.RUBYARMORMATERIAL, EquipmentSlotType.FEET, new Item.Properties().group(ItemGroup.COMBAT)));
+	
+	
 	// BLOCK ITEMS
 	public static final RegistryObject<BlockItem> TEST_BLOCK = ITEMS.register("test_block", 
 			() -> new BlockItem(BlockInit.TEST_BLOCK.get(), new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)));
@@ -153,5 +183,8 @@ public class ItemInit {
 	
 	public static final RegistryObject<BlockItem> RED_PLANKS = ITEMS.register("red_planks", 
 			() -> new BlockItem(BlockInit.RED_PLANKS.get(), new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)));
+	
+	public static final RegistryObject<BlockItem> RUBY_BLOCK = ITEMS.register("ruby_block",
+			() -> new BlockItem(BlockInit.RUBY_BLOCK.get(), new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)));
 
 }

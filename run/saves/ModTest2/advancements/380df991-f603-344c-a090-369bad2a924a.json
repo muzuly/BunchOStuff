@@ -293,6 +293,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/note_block": {
+    "criteria": {
+      "has_redstone": "2021-01-09 10:42:57 -0600"
+    },
+    "done": true
+  },
   "minecraft:story/root": {
     "criteria": {
       "crafting_table": "2021-01-06 11:51:30 -0600"
@@ -308,6 +314,12 @@
   "minecraft:recipes/combat/crossbow": {
     "criteria": {
       "has_iron_ingot": "2021-01-06 11:51:39 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dropper": {
+    "criteria": {
+      "has_redstone": "2021-01-09 10:42:57 -0600"
     },
     "done": true
   },
@@ -377,6 +389,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/tools/compass": {
+    "criteria": {
+      "has_redstone": "2021-01-09 10:42:57 -0600"
+    },
+    "done": true
+  },
   "minecraft:adventure/kill_a_mob": {
     "criteria": {
       "minecraft:creeper": "2021-01-07 09:39:16 -0600"
@@ -443,6 +461,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/target": {
+    "criteria": {
+      "has_redstone": "2021-01-09 10:42:57 -0600"
+    },
+    "done": true
+  },
   "minecraft:recipes/transportation/minecart": {
     "criteria": {
       "has_iron_ingot": "2021-01-06 11:51:39 -0600"
@@ -496,6 +520,12 @@
   "minecraft:husbandry/root": {
     "criteria": {
       "consumed_item": "2021-01-06 15:21:08 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone_torch": {
+    "criteria": {
+      "has_redstone": "2021-01-09 10:42:57 -0600"
     },
     "done": true
   },
@@ -607,6 +637,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/tools/clock": {
+    "criteria": {
+      "has_redstone": "2021-01-09 10:42:57 -0600"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/diamond_pickaxe": {
     "criteria": {
       "has_diamond": "2021-01-06 15:35:10 -0600"
@@ -628,11 +664,18 @@
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:skeleton": "2021-01-08 12:11:35 -0600",
+      "minecraft:zoglin": "2021-01-09 11:11:50 -0600",
       "minecraft:spider": "2021-01-08 19:21:22 -0600",
       "minecraft:creeper": "2021-01-07 09:39:16 -0600",
       "minecraft:zombie": "2021-01-07 16:03:28 -0600"
     },
     "done": false
+  },
+  "minecraft:recipes/redstone/redstone_block": {
+    "criteria": {
+      "has_redstone": "2021-01-09 10:42:57 -0600"
+    },
+    "done": true
   },
   "minecraft:recipes/misc/mojang_banner_pattern": {
     "criteria": {
@@ -643,6 +686,12 @@
   "minecraft:recipes/combat/golden_leggings": {
     "criteria": {
       "has_gold_ingot": "2021-01-06 15:08:42 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/piston": {
+    "criteria": {
+      "has_redstone": "2021-01-09 10:42:57 -0600"
     },
     "done": true
   },
