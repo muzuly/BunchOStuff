@@ -209,5 +209,8 @@ public class ItemInit {
 	
 	public static final RegistryObject<BlockItem> COMPRESSED_COBBLE = ITEMS.register("compressed_cobble",
 			() -> new BlockItem(BlockInit.COMPRESSED_COBBLE.get(), new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)));
+
+	public static final RegistryObject<BlockItem> STARFISH = ITEMS.register("starfish",
+			() -> new BlockItem(BlockInit.STARFISH.get(), new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)));
 	
 }

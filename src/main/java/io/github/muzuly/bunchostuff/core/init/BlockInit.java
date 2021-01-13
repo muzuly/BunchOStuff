@@ -39,5 +39,8 @@ public class BlockInit {
 	
 	public static final RegistryObject<Block> COMPRESSED_COBBLE = BLOCKS.register("compressed_cobble",
 			() -> new Block(AbstractBlock.Properties.from(Blocks.COBBLESTONE)));
+	
+	public static final RegistryObject<Block> STARFISH = BLOCKS.register("starfish",
+			() -> new Block(AbstractBlock.Properties.create(Material.CORAL, MaterialColor.ORANGE_TERRACOTTA).hardnessAndResistance(0.1f).sound(SoundType.CORAL)));
 
 }
