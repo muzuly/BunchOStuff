@@ -3,6 +3,7 @@ package io.github.muzuly.bunchostuff.core.init;
 import io.github.muzuly.bunchostuff.BunchOStuff;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
+import net.minecraft.block.Blocks;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.material.MaterialColor;
@@ -29,5 +30,14 @@ public class BlockInit {
 	
 	public static final RegistryObject<Block> RUBY_BLOCK = BLOCKS.register("ruby_block", 
 			() -> new Block(AbstractBlock.Properties.create(Material.IRON, MaterialColor.RED).hardnessAndResistance(5f).sound(SoundType.METAL)));
+	
+	public static final RegistryObject<Block> SOOTY_QUARTZ = BLOCKS.register("sooty_quartz",
+			() -> new Block(AbstractBlock.Properties.from(Blocks.QUARTZ_BLOCK)));
+	
+	public static final RegistryObject<Block> COMPRESSED_DIRT = BLOCKS.register("compressed_dirt",
+			() -> new Block(AbstractBlock.Properties.from(Blocks.DIRT)));
+	
+	public static final RegistryObject<Block> COMPRESSED_COBBLE = BLOCKS.register("compressed_cobble",
+			() -> new Block(AbstractBlock.Properties.from(Blocks.COBBLESTONE)));
 
 }

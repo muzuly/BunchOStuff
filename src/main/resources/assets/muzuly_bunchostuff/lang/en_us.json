@@ -42,5 +42,10 @@
 	"item.muzuly_bunchostuff.ruby_pickaxe": "Ruby Pickaxe",
 	"item.muzuly_bunchostuff.ruby_axe": "Ruby Axe",
 	"item.muzuly_bunchostuff.ruby_shovel": "Ruby Shovel",
-	"block.muzuly_bunchostuff.ruby_block": "Ruby Block"
+	"block.muzuly_bunchostuff.ruby_block": "Ruby Block",
+	"block.muzuly_bunchostuff.sooty_quartz": "Sooty Quartz",
+	"block.muzuly_bunchostuff.compressed_dirt": "Compressed Dirt",
+	"block.muzuly_bunchostuff.compressed_sand": "Compressed Sand",
+	"block.muzuly_bunchostuff.compressed_cobble": "Compressed Cobblestone",
+	"item.muzuly_bunchostuff.carrot_stew": "Carrot Stew"
 }

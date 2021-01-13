@@ -1,9 +1,9 @@
 package io.github.muzuly.bunchostuff.core.init;
 
 import io.github.muzuly.bunchostuff.BunchOStuff; 
-
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
+import net.minecraft.item.SoupItem;
 import net.minecraft.inventory.EquipmentSlotType;
 import net.minecraft.item.ArmorItem;
 import net.minecraft.item.BlockItem;
@@ -51,6 +51,10 @@ public class ItemInit {
 	
 	public static final RegistryObject<Item> RUBY = ITEMS.register("ruby",
 			() -> new Item(new Item.Properties().group(ItemGroup.MISC)));
+	
+	public static final RegistryObject<Item> CARROT_STEW = ITEMS.register("carrot_stew",
+			() -> new SoupItem((new Item.Properties()).maxStackSize(1).group(ItemGroup.FOOD).food(Foods.BEETROOT_SOUP)));
+
 	
 	//RINGS & PENDANTS
 	public static final RegistryObject<Item> IRON_RING_ITEM = ITEMS.register("iron_ring_item",
@@ -143,30 +147,40 @@ public class ItemInit {
 	//EMERALD ARMOR
 	public static final RegistryObject<Item> EMERALD_HELMET = ITEMS.register("emerald_helmet",
 			() -> new ArmorItem(ArmorMaterialList.EMERALDARMORMATERIAL, EquipmentSlotType.HEAD, new Item.Properties().group(ItemGroup.COMBAT)));
+	
 	public static final RegistryObject<Item> EMERALD_CHESTPLATE = ITEMS.register("emerald_chestplate",
 			() -> new ArmorItem(ArmorMaterialList.EMERALDARMORMATERIAL, EquipmentSlotType.CHEST, new Item.Properties().group(ItemGroup.COMBAT)));
+	
 	public static final RegistryObject<Item> EMERALD_LEGGINGS = ITEMS.register("emerald_leggings",
 			() -> new ArmorItem(ArmorMaterialList.EMERALDARMORMATERIAL, EquipmentSlotType.LEGS, new Item.Properties().group(ItemGroup.COMBAT)));
+	
 	public static final RegistryObject<Item> EMERALD_BOOTS = ITEMS.register("emerald_boots",
 			() -> new ArmorItem(ArmorMaterialList.EMERALDARMORMATERIAL, EquipmentSlotType.FEET, new Item.Properties().group(ItemGroup.COMBAT)));
+	
 	
 	//OBSIDIAN ARMOR
 	public static final RegistryObject<Item> OBSIDIAN_HELMET = ITEMS.register("obsidian_helmet",
 			() -> new ArmorItem(ArmorMaterialList.OBSIDIANARMORMATERIAL, EquipmentSlotType.HEAD, new Item.Properties().group(ItemGroup.COMBAT)));
+	
 	public static final RegistryObject<Item> OBSIDIAN_CHESTPLATE = ITEMS.register("obsidian_chestplate",
 			() -> new ArmorItem(ArmorMaterialList.OBSIDIANARMORMATERIAL, EquipmentSlotType.CHEST, new Item.Properties().group(ItemGroup.COMBAT)));
+	
 	public static final RegistryObject<Item> OBSIDIAN_LEGGINGS = ITEMS.register("obsidian_leggings",
 			() -> new ArmorItem(ArmorMaterialList.OBSIDIANARMORMATERIAL, EquipmentSlotType.LEGS, new Item.Properties().group(ItemGroup.COMBAT)));
+	
 	public static final RegistryObject<Item> OBSIDIAN_BOOTS = ITEMS.register("obsidian_boots",
 			() -> new ArmorItem(ArmorMaterialList.OBSIDIANARMORMATERIAL, EquipmentSlotType.FEET, new Item.Properties().group(ItemGroup.COMBAT)));
 			
 	//RUBY ARMOR
 	public static final RegistryObject<Item> RUBY_HELMET = ITEMS.register("ruby_helmet",
 			() -> new ArmorItem(ArmorMaterialList.RUBYARMORMATERIAL, EquipmentSlotType.HEAD, new Item.Properties().group(ItemGroup.COMBAT)));
+	
 	public static final RegistryObject<Item> RUBY_CHESTPLATE = ITEMS.register("ruby_chestplate",
 			() -> new ArmorItem(ArmorMaterialList.RUBYARMORMATERIAL, EquipmentSlotType.CHEST, new Item.Properties().group(ItemGroup.COMBAT)));
+	
 	public static final RegistryObject<Item> RUBY_LEGGINGS = ITEMS.register("ruby_leggings",
 			() -> new ArmorItem(ArmorMaterialList.RUBYARMORMATERIAL, EquipmentSlotType.LEGS, new Item.Properties().group(ItemGroup.COMBAT)));
+	
 	public static final RegistryObject<Item> RUBY_BOOTS = ITEMS.register("ruby_boots",
 			() -> new ArmorItem(ArmorMaterialList.RUBYARMORMATERIAL, EquipmentSlotType.FEET, new Item.Properties().group(ItemGroup.COMBAT)));
 	
@@ -187,4 +201,13 @@ public class ItemInit {
 	public static final RegistryObject<BlockItem> RUBY_BLOCK = ITEMS.register("ruby_block",
 			() -> new BlockItem(BlockInit.RUBY_BLOCK.get(), new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)));
 
+	public static final RegistryObject<BlockItem> SOOTY_QUARTZ = ITEMS.register("sooty_quartz",
+			() -> new BlockItem(BlockInit.SOOTY_QUARTZ.get(), new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)));
+	
+	public static final RegistryObject<BlockItem> COMPRESSED_DIRT = ITEMS.register("compressed_dirt",
+			() -> new BlockItem(BlockInit.COMPRESSED_DIRT.get(), new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)));
+	
+	public static final RegistryObject<BlockItem> COMPRESSED_COBBLE = ITEMS.register("compressed_cobble",
+			() -> new BlockItem(BlockInit.COMPRESSED_COBBLE.get(), new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)));
+	
 }
